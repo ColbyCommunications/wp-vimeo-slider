@@ -16,7 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 new VimeoPost();
 new VimeoPostMeta();
 new VimeoSlider();
-new Options();
 new Shortcode();
 
 add_action( 'after_setup_theme', [ Carbon_Fields::class, 'boot' ] );
