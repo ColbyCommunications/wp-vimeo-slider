@@ -76,13 +76,13 @@ class VimeoPostMeta {
 		static $cache;
 
 		$cache = $cache ?: [];
-        $id = $id ?: get_the_id();
-        
-        if ( empty( $id ) ) {
-            return null;
-        }
+		$id = $id ?: get_the_id();
 
-        $cache_key = "$key$id";
+		if ( empty( $id ) ) {
+			return null;
+		}
+
+		$cache_key = "$key$id";
 
 		if ( isset( $cache[ $cache_key ] ) ) {
 			return $cache[ $cache_key ];
@@ -90,7 +90,7 @@ class VimeoPostMeta {
 
 		$value = Carbon::get_post_meta( $id, $key );
 		$cache[ $cache_key ] = $value;
-        
-        return $value;
+
+		return $value;
 	}
 }
