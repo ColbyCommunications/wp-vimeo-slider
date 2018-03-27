@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import VimeoSlider from '.';
 
 window.addEventListener('load', () => {
@@ -11,9 +11,6 @@ window.addEventListener('load', () => {
 
   const vimeoPostsEndpoint = root.getAttribute('data-vimeo-posts-endpoint');
   if (vimeoPostsEndpoint) {
-    ReactDOM.render(
-      <VimeoSlider vimeoPostsEndpoint={vimeoPostsEndpoint} />,
-      root,
-    );
+    render(<VimeoSlider vimeoPostsEndpoint={vimeoPostsEndpoint} />, root);
   }
 });

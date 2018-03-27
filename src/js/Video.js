@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Player from '@vimeo/player';
 
+import { makeIframeResponsive } from './makeIframeResponsive';
+
 const StyledVideo = styled.div`
   display: block;
   padding: 0;
@@ -74,29 +76,16 @@ export default class Video extends React.Component {
     post: PropTypes.objectOf(PropTypes.any).isRequired,
   };
 
-  constructor(props) {
-    super(props);
-
-    this.setIframeDimensions = this.setIframeDimensions.bind(this);
+  componentDidMount() {
+    this.startPlayer();
   }
 
-  componentDidMount() {
+  startPlayer({ colbycomms__vimeo_slider__vimeo_id: id } = this.props.post) {
     this.player = new Player(this.videoContainer, {
-      id: this.props.post.colbycomms__vimeo_slider__vimeo_id,
+      id,
     });
 
-    this.player.on('loaded', this.setIframeDimensions);
-    window.addEventListener('resize', this.setIframeDimensions);
-  }
-
-  setIframeDimensions() {
-    const iframe = this.player.element;
-    iframe.setAttribute('style', 'width: 100%');
-    const iframeHeight = iframe.getAttribute('height');
-    const iframeWidth = iframe.getAttribute('width');
-    const ratio = iframe.clientWidth / iframeWidth;
-
-    iframe.setAttribute('style', `width: 100%; height: ${iframeHeight * ratio}px`);
+    this.player.on('loaded', () => makeIframeResponsive(this.player.iframe));
   }
 
   render = ({ title, colbycomms__vimeo_slider__vimeo_description: description } = this.props.post) => (

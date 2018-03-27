@@ -61,24 +61,11 @@ class VimeoSlider {
 	const ENQUEUE_SCRIPT_FILTER = self::FILTER_NAMESPACE . 'enqueue_script';
 
 	/**
-	 * The plugin's shortcode tag.
-	 */
-	const BLOCK_TAG = 'vimeo-slider';
-
-	/**
 	 * Add hooks.
 	 */
 	public function __construct() {
-		add_action( 'init', [ __CLASS__, 'register_shortcode' ] );
 		add_action( 'wp_enqueue_scripts', [ __CLASS__, 'enqueue_script' ] );
 		add_filter( 'template_redirect', [ __CLASS__, 'maybe_disable_script' ] );
-	}
-
-	/**
-	 * Adds the shortcode.
-	 */
-	public static function register_shortcode() {
-		add_shortcode( self::BLOCK_TAG, [ \ColbyComms\VimeoSlider\Block::class, 'render' ] );
 	}
 
 	/**
@@ -119,7 +106,7 @@ class VimeoSlider {
 			return;
 		}
 
-		if ( has_shortcode( $post->post_content, self::BLOCK_TAG ) ) {
+		if ( has_shortcode( $post->post_content, Shortcode::SHORTCODE_TAG ) ) {
 			return;
 		}
 
@@ -154,5 +141,4 @@ class VimeoSlider {
 
 		return get_template_directory_uri() . '/vendor/' . self::VENDOR . '/' . self::TEXT_DOMAIN . '/dist/';
 	}
-
 }
