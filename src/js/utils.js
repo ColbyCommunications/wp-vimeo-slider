@@ -5,10 +5,10 @@
  * @return {object} fixedProps The props to send to the button components.
  */
 export function removeTroublesomeArrowProps(props) {
-  const troublesomeProps = ["currentSlide", "slideCount"];
+  const troublesomeProps = ['currentSlide', 'slideCount'];
   const fixedProps = {};
 
-  Object.keys(props).forEach(key => {
+  Object.keys(props).forEach((key) => {
     if (troublesomeProps.includes(key) === false) {
       fixedProps[key] = props[key];
     }
