@@ -1,0 +1,1764 @@
+[
+  {
+    "id": 7571,
+    "date": "2018-03-27T11:30:37",
+    "date_gmt": "2018-03-27T11:30:37",
+    "guid": {
+      "rendered": "http://commencement:8888/?post_type=vimeo-video&#038;p=7571"
+    },
+    "modified": "2018-03-27T11:30:37",
+    "modified_gmt": "2018-03-27T11:30:37",
+    "slug": "janplan-at-bigelow-labs",
+    "status": "publish",
+    "type": "vimeo-video",
+    "link": "http://commencement:8888/vimeo-video/janplan-at-bigelow-labs/",
+    "title": {
+      "rendered": "JanPlan at Bigelow Labs"
+    },
+    "template": "",
+    "colbycomms__vimeo_slider__vimeo_id": "253471016",
+    "colbycomms__vimeo_slider__vimeo_title": "",
+    "colbycomms__vimeo_slider__vimeo_description": "",
+    "vimeo_data": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video/7571"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/types/vimeo-video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/media?parent=7571"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7570,
+    "date": "2018-03-27T11:30:01",
+    "date_gmt": "2018-03-27T11:30:01",
+    "guid": {
+      "rendered": "http://commencement:8888/?post_type=vimeo-video&#038;p=7570"
+    },
+    "modified": "2018-03-27T11:30:01",
+    "modified_gmt": "2018-03-27T11:30:01",
+    "slug": "davisconnects",
+    "status": "publish",
+    "type": "vimeo-video",
+    "link": "http://commencement:8888/vimeo-video/davisconnects/",
+    "title": {
+      "rendered": "DavisConnects"
+    },
+    "template": "",
+    "colbycomms__vimeo_slider__vimeo_id": "214177004",
+    "colbycomms__vimeo_slider__vimeo_title": "",
+    "colbycomms__vimeo_slider__vimeo_description": "",
+    "vimeo_data": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video/7570"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/types/vimeo-video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/media?parent=7570"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7567,
+    "date": "2018-03-27T11:28:32",
+    "date_gmt": "2018-03-27T11:28:32",
+    "guid": {
+      "rendered": "http://commencement:8888/?post_type=vimeo-video&#038;p=7567"
+    },
+    "modified": "2018-03-27T11:29:34",
+    "modified_gmt": "2018-03-27T11:29:34",
+    "slug": "origins-2",
+    "status": "publish",
+    "type": "vimeo-video",
+    "link": "http://commencement:8888/vimeo-video/origins-2/",
+    "title": {
+      "rendered": "Origins"
+    },
+    "template": "",
+    "colbycomms__vimeo_slider__vimeo_id": "231072597",
+    "colbycomms__vimeo_slider__vimeo_title": "",
+    "colbycomms__vimeo_slider__vimeo_description": "",
+    "vimeo_data": {
+      "uri": "/videos/231072597",
+      "name": "Origins",
+      "description": null,
+      "link": "https://vimeo.com/231072597",
+      "duration": 88,
+      "width": 1920,
+      "language": null,
+      "height": 1080,
+      "embed": {
+        "uri": null,
+        "html":
+          "<iframe src=\"https://player.vimeo.com/video/231072597?badge=0&autopause=0&player_id=0&app_id=112802\" width=\"1920\" height=\"1080\" frameborder=\"0\" title=\"Origins\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "buttons": {
+          "like": true,
+          "watchlater": false,
+          "share": false,
+          "embed": false,
+          "hd": false,
+          "fullscreen": true,
+          "scaling": true
+        },
+        "logos": {
+          "vimeo": true,
+          "custom": {
+            "active": false,
+            "link": null,
+            "sticky": false
+          }
+        },
+        "title": {
+          "name": "hide",
+          "owner": "hide",
+          "portrait": "hide"
+        },
+        "playbar": false,
+        "volume": true,
+        "speed": false,
+        "color": "ee5306"
+      },
+      "created_time": "2017-08-25T13:01:07+00:00",
+      "modified_time": "2018-03-27T02:11:44+00:00",
+      "release_time": "2017-08-25T13:01:07+00:00",
+      "content_rating": ["unrated"],
+      "license": "by-nc",
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": false,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/231072597/pictures/684302734",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/684302734_100x75.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/684302734_200x150.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/684302734_295x166.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 360,
+            "link": "https://i.vimeocdn.com/video/684302734_640x360.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_640x360.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 960,
+            "height": 540,
+            "link": "https://i.vimeocdn.com/video/684302734_960x540.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_960x540.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/684302734_1280x720.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "link":
+              "https://i.vimeocdn.com/video/684302734_1920x1080.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_1920x1080.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "link": "https://i.vimeocdn.com/video/684302734_1280x720.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F684302734_1280x720.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "e15188415518cd6f1da8ec8788a5e12cf58c4cdf"
+      },
+      "tags": [],
+      "stats": {
+        "plays": 2603
+      },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/231072597/comments",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/231072597/credits",
+            "options": ["GET", "POST"],
+            "total": 2
+          },
+          "likes": {
+            "uri": "/videos/231072597/likes",
+            "options": ["GET"],
+            "total": 2
+          },
+          "pictures": {
+            "uri": "/videos/231072597/pictures",
+            "options": ["GET", "POST"],
+            "total": 7
+          },
+          "texttracks": {
+            "uri": "/videos/231072597/texttracks",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "related": null,
+          "recommendations": {
+            "uri": "/videos/231072597/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "watchlater": {
+            "uri": "/users/12746784/watchlater/231072597",
+            "options": ["GET", "PUT", "DELETE"],
+            "added": false,
+            "added_time": null
+          },
+          "report": {
+            "uri": "/videos/231072597/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "advertisement",
+              "ripoff",
+              "incorrect rating",
+              "spam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/12746784",
+        "name": "Colby College",
+        "link": "https://vimeo.com/colbycollege",
+        "location": "Waterville, Maine",
+        "bio": null,
+        "created_time": "2012-07-30T17:43:04+00:00",
+        "account": "pro",
+        "pictures": {
+          "uri": "/users/12746784/pictures/3976886",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/3976886_30x30"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/3976886_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/3976886_100x100"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/3976886_300x300"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/3976886_72x72"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/3976886_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/3976886_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/3976886_288x288"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/3976886_360x360"
+            }
+          ],
+          "resource_key": "e8900f9f026899c42fe434d86d7eb3de9c04dc2f"
+        },
+        "websites": [
+          {
+            "name": "Colby College",
+            "link": "http://www.colby.edu",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/12746784/albums",
+              "options": ["GET"],
+              "total": 9
+            },
+            "appearances": {
+              "uri": "/users/12746784/appearances",
+              "options": ["GET"],
+              "total": 0
+            },
+            "categories": {
+              "uri": "/users/12746784/categories",
+              "options": ["GET"],
+              "total": 0
+            },
+            "channels": {
+              "uri": "/users/12746784/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": {
+              "uri": "/users/12746784/feed",
+              "options": ["GET"]
+            },
+            "followers": {
+              "uri": "/users/12746784/followers",
+              "options": ["GET"],
+              "total": 52
+            },
+            "following": {
+              "uri": "/users/12746784/following",
+              "options": ["GET"],
+              "total": 7
+            },
+            "groups": {
+              "uri": "/users/12746784/groups",
+              "options": ["GET"],
+              "total": 0
+            },
+            "likes": {
+              "uri": "/users/12746784/likes",
+              "options": ["GET"],
+              "total": 13
+            },
+            "moderated_channels": {
+              "uri": "/users/12746784/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 1
+            },
+            "portfolios": {
+              "uri": "/users/12746784/portfolios",
+              "options": ["GET"],
+              "total": 1
+            },
+            "videos": {
+              "uri": "/users/12746784/videos",
+              "options": ["GET"],
+              "total": 404
+            },
+            "watchlater": {
+              "uri": "/users/12746784/watchlater",
+              "options": ["GET"],
+              "total": 5
+            },
+            "shared": {
+              "uri": "/users/12746784/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/12746784/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "watched_videos": {
+              "uri": "/me/watched/videos",
+              "options": ["GET"],
+              "total": 2647
+            },
+            "block": {
+              "uri": "/me/block",
+              "options": ["GET"],
+              "total": 0
+            }
+          }
+        },
+        "preferences": {
+          "videos": {
+            "privacy": {
+              "view": "anybody",
+              "comments": "anybody",
+              "embed": "public",
+              "download": false,
+              "add": true
+            }
+          }
+        },
+        "content_filter": [
+          "language",
+          "drugs",
+          "violence",
+          "nudity",
+          "safe",
+          "unrated"
+        ],
+        "resource_key": "fd0476428a252495d71760551ece50f4c1465cd3"
+      },
+      "review_page": {
+        "active": true,
+        "link": "https://vimeo.com/colbycollege/review/231072597/8b680498a8"
+      },
+      "last_user_action_event_date": "2018-02-20T15:00:08+00:00",
+      "files": [
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1280,
+          "height": 720,
+          "link":
+            "https://player.vimeo.com/external/231072597.hd.mp4?s=968af9520c207f77f976f50487a36101ea182801&profile_id=174&oauth2_token_id=1050949914",
+          "created_time": "2017-09-06T22:07:09+00:00",
+          "fps": 24,
+          "size": 15844286,
+          "md5": "77f92e38e8e809398c9e131578c54039"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 360,
+          "link":
+            "https://player.vimeo.com/external/231072597.sd.mp4?s=6c56579b7ee1148481e8873192b496657e4bd554&profile_id=164&oauth2_token_id=1050949914",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 5277159,
+          "md5": "871fab1a3e4ad50d4b7bbd6d76b5530c"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "link":
+            "https://player.vimeo.com/external/231072597.hd.mp4?s=968af9520c207f77f976f50487a36101ea182801&profile_id=175&oauth2_token_id=1050949914",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 30428465,
+          "md5": "89bf2023351ad03bc500c15b0eda1061"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 540,
+          "link":
+            "https://player.vimeo.com/external/231072597.sd.mp4?s=6c56579b7ee1148481e8873192b496657e4bd554&profile_id=165&oauth2_token_id=1050949914",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 10108196,
+          "md5": "65e869255c13a6d52ff664d4a64e25f0"
+        },
+        {
+          "quality": "hls",
+          "type": "video/mp4",
+          "link":
+            "https://player.vimeo.com/external/231072597.m3u8?s=375a488d9ac7aa1c765df9979df92c0cf304f59e&oauth2_token_id=1050949914",
+          "created_time": "2017-09-06T22:07:09+00:00",
+          "fps": 24,
+          "size": 15844286,
+          "md5": "77f92e38e8e809398c9e131578c54039"
+        }
+      ],
+      "download": [
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1280,
+          "height": 720,
+          "expires": "2018-03-27T14:29:34+00:00",
+          "link":
+            "https://player.vimeo.com/play/824634650?s=231072597_1522193374_b5543d419b8717d8e99bded3ff2654f5&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Origins174.mp4",
+          "created_time": "2017-09-06T22:07:09+00:00",
+          "fps": 24,
+          "size": 15844286,
+          "md5": "77f92e38e8e809398c9e131578c54039"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 360,
+          "expires": "2018-03-27T14:29:34+00:00",
+          "link":
+            "https://player.vimeo.com/play/824634644?s=231072597_1522193374_9425ce7698af691faec423251c2fdc83&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Origins164.mp4",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 5277159,
+          "md5": "871fab1a3e4ad50d4b7bbd6d76b5530c"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1920,
+          "height": 1080,
+          "expires": "2018-03-27T14:29:34+00:00",
+          "link":
+            "https://player.vimeo.com/play/824634638?s=231072597_1522193374_c44af456bed187a1dd467e7e7a534d56&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Origins175.mp4",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 30428465,
+          "md5": "89bf2023351ad03bc500c15b0eda1061"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 540,
+          "expires": "2018-03-27T14:29:34+00:00",
+          "link":
+            "https://player.vimeo.com/play/824634635?s=231072597_1522193374_83237a2ea7ec5f70017f046fce4ace65&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Origins165.mp4",
+          "created_time": "2017-09-06T22:07:08+00:00",
+          "fps": 24,
+          "size": 10108196,
+          "md5": "65e869255c13a6d52ff664d4a64e25f0"
+        },
+        {
+          "quality": "source",
+          "type": "source",
+          "width": 2048,
+          "height": 1152,
+          "expires": "2018-03-27T14:29:34+00:00",
+          "link":
+            "https://player.vimeo.com/play/824634258?s=231072597_1522193374_a654e58735d7351a16df1ce5baf770e6&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Originssource.",
+          "created_time": "2017-09-06T22:06:25+00:00",
+          "fps": 24,
+          "size": 178967868,
+          "md5": "db60c5528883a3e06bf670d5a2d602ad"
+        }
+      ],
+      "app": null,
+      "status": "available",
+      "resource_key": "5452071a60c39023b92488023a6cd75283779451",
+      "upload": {
+        "status": "complete",
+        "link": null,
+        "upload_link": null,
+        "complete_uri": null,
+        "form": null,
+        "approach": null,
+        "size": null,
+        "redirect_url": null
+      },
+      "transcode": {
+        "status": "complete"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video/7567"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/types/vimeo-video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/media?parent=7567"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7566,
+    "date": "2018-03-26T19:19:47",
+    "date_gmt": "2018-03-26T19:19:47",
+    "guid": {
+      "rendered": "http://commencement:8888/?post_type=vimeo-video&#038;p=7566"
+    },
+    "modified": "2018-03-26T19:21:16",
+    "modified_gmt": "2018-03-26T19:21:16",
+    "slug": "dare-northward",
+    "status": "publish",
+    "type": "vimeo-video",
+    "link": "http://commencement:8888/vimeo-video/dare-northward/",
+    "title": {
+      "rendered": "Dare Northward"
+    },
+    "template": "",
+    "colbycomms__vimeo_slider__vimeo_id": "239157971",
+    "colbycomms__vimeo_slider__vimeo_title": "",
+    "colbycomms__vimeo_slider__vimeo_description": "",
+    "vimeo_data": {
+      "uri": "/videos/239157971",
+      "name": "Dare Northward | Colby College",
+      "description": null,
+      "link": "https://vimeo.com/239157971",
+      "duration": 142,
+      "width": 1920,
+      "language": null,
+      "height": 816,
+      "embed": {
+        "uri": "/presets/120214817",
+        "html": null,
+        "buttons": {
+          "like": false,
+          "watchlater": false,
+          "share": false,
+          "embed": false,
+          "hd": false,
+          "fullscreen": true,
+          "scaling": true
+        },
+        "logos": {
+          "vimeo": true,
+          "custom": {
+            "active": false,
+            "link": null,
+            "sticky": false
+          }
+        },
+        "title": {
+          "name": "hide",
+          "owner": "hide",
+          "portrait": "hide"
+        },
+        "playbar": true,
+        "volume": true,
+        "speed": false,
+        "color": "00adef"
+      },
+      "created_time": "2017-10-20T18:30:17+00:00",
+      "modified_time": "2018-03-26T19:20:56+00:00",
+      "release_time": "2017-10-20T18:30:17+00:00",
+      "content_rating": ["safe"],
+      "license": "by-nc",
+      "privacy": {
+        "view": "anybody",
+        "embed": "private",
+        "download": true,
+        "add": true,
+        "comments": "nobody"
+      },
+      "pictures": {
+        "uri": "/videos/239157971/pictures/662155241",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/662155241_100x75.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/662155241_200x150.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/662155241_295x166.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 272,
+            "link": "https://i.vimeocdn.com/video/662155241_640x272.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_640x272.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 960,
+            "height": 408,
+            "link": "https://i.vimeocdn.com/video/662155241_960x408.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_960x408.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 544,
+            "link": "https://i.vimeocdn.com/video/662155241_1280x544.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_1280x544.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 816,
+            "link": "https://i.vimeocdn.com/video/662155241_1920x816.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_1920x816.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 544,
+            "link": "https://i.vimeocdn.com/video/662155241_1280x544.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F662155241_1280x544.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "af65ec16a61118bb949152b6ab5f6b2609ec7383"
+      },
+      "tags": [],
+      "stats": {
+        "plays": 9192
+      },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/239157971/comments",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/239157971/credits",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "likes": {
+            "uri": "/videos/239157971/likes",
+            "options": ["GET"],
+            "total": 0
+          },
+          "pictures": {
+            "uri": "/videos/239157971/pictures",
+            "options": ["GET", "POST"],
+            "total": 2
+          },
+          "texttracks": {
+            "uri": "/videos/239157971/texttracks",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "related": null,
+          "recommendations": {
+            "uri": "/videos/239157971/recommendations",
+            "options": ["GET"]
+          }
+        },
+        "interactions": {
+          "watchlater": {
+            "uri": "/users/12746784/watchlater/239157971",
+            "options": ["GET", "PUT", "DELETE"],
+            "added": false,
+            "added_time": null
+          },
+          "report": {
+            "uri": "/videos/239157971/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "advertisement",
+              "ripoff",
+              "incorrect rating",
+              "spam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/12746784",
+        "name": "Colby College",
+        "link": "https://vimeo.com/colbycollege",
+        "location": "Waterville, Maine",
+        "bio": null,
+        "created_time": "2012-07-30T17:43:04+00:00",
+        "account": "pro",
+        "pictures": {
+          "uri": "/users/12746784/pictures/3976886",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/3976886_30x30"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/3976886_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/3976886_100x100"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/3976886_300x300"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/3976886_72x72"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/3976886_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/3976886_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/3976886_288x288"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/3976886_360x360"
+            }
+          ],
+          "resource_key": "e8900f9f026899c42fe434d86d7eb3de9c04dc2f"
+        },
+        "websites": [
+          {
+            "name": "Colby College",
+            "link": "http://www.colby.edu",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/12746784/albums",
+              "options": ["GET"],
+              "total": 9
+            },
+            "appearances": {
+              "uri": "/users/12746784/appearances",
+              "options": ["GET"],
+              "total": 0
+            },
+            "categories": {
+              "uri": "/users/12746784/categories",
+              "options": ["GET"],
+              "total": 0
+            },
+            "channels": {
+              "uri": "/users/12746784/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": {
+              "uri": "/users/12746784/feed",
+              "options": ["GET"]
+            },
+            "followers": {
+              "uri": "/users/12746784/followers",
+              "options": ["GET"],
+              "total": 52
+            },
+            "following": {
+              "uri": "/users/12746784/following",
+              "options": ["GET"],
+              "total": 7
+            },
+            "groups": {
+              "uri": "/users/12746784/groups",
+              "options": ["GET"],
+              "total": 0
+            },
+            "likes": {
+              "uri": "/users/12746784/likes",
+              "options": ["GET"],
+              "total": 13
+            },
+            "moderated_channels": {
+              "uri": "/users/12746784/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 1
+            },
+            "portfolios": {
+              "uri": "/users/12746784/portfolios",
+              "options": ["GET"],
+              "total": 1
+            },
+            "videos": {
+              "uri": "/users/12746784/videos",
+              "options": ["GET"],
+              "total": 404
+            },
+            "watchlater": {
+              "uri": "/users/12746784/watchlater",
+              "options": ["GET"],
+              "total": 5
+            },
+            "shared": {
+              "uri": "/users/12746784/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/12746784/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "watched_videos": {
+              "uri": "/me/watched/videos",
+              "options": ["GET"],
+              "total": 2643
+            },
+            "block": {
+              "uri": "/me/block",
+              "options": ["GET"],
+              "total": 0
+            }
+          }
+        },
+        "preferences": {
+          "videos": {
+            "privacy": {
+              "view": "anybody",
+              "comments": "anybody",
+              "embed": "public",
+              "download": false,
+              "add": true
+            }
+          }
+        },
+        "content_filter": [
+          "language",
+          "drugs",
+          "violence",
+          "nudity",
+          "safe",
+          "unrated"
+        ],
+        "resource_key": "fd0476428a252495d71760551ece50f4c1465cd3"
+      },
+      "review_page": {
+        "active": false,
+        "link": "https://vimeo.com/colbycollege/review/239157971/3966a30f86"
+      },
+      "last_user_action_event_date": "2018-03-26T19:20:56+00:00",
+      "files": [
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 408,
+          "link":
+            "https://player.vimeo.com/external/239157971.sd.mp4?s=6984f63b28d70503b4bb65d2d05bfefa050f5533&profile_id=165&oauth2_token_id=1050949914",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 25736897,
+          "md5": "16c9f180bab68db37fccfb6bf36f86a0"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1920,
+          "height": 816,
+          "link":
+            "https://player.vimeo.com/external/239157971.hd.mp4?s=e2034838195c4e3877a94ddf4ef0e7c8ae47c5bf&profile_id=175&oauth2_token_id=1050949914",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 83583925,
+          "md5": "13398141b6c643c8c6528cb8bd0e64ed"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 272,
+          "link":
+            "https://player.vimeo.com/external/239157971.sd.mp4?s=6984f63b28d70503b4bb65d2d05bfefa050f5533&profile_id=164&oauth2_token_id=1050949914",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 10301507,
+          "md5": "979bcb2c749d0e2bf4fef1d0256b128b"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1366,
+          "height": 582,
+          "link":
+            "https://player.vimeo.com/external/239157971.hd.mp4?s=e2034838195c4e3877a94ddf4ef0e7c8ae47c5bf&profile_id=174&oauth2_token_id=1050949914",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 44335227,
+          "md5": "a5a350f3ef7191627bc2d863c3aaf16a"
+        },
+        {
+          "quality": "hls",
+          "type": "video/mp4",
+          "link":
+            "https://player.vimeo.com/external/239157971.m3u8?s=dc6c34dbeaa2cea1e3fbdfb9171fc2d3be4dd324&oauth2_token_id=1050949914",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 25736897,
+          "md5": "16c9f180bab68db37fccfb6bf36f86a0"
+        }
+      ],
+      "download": [
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 408,
+          "expires": "2018-03-26T22:21:17+00:00",
+          "link":
+            "https://player.vimeo.com/play/855061953?s=239157971_1522135277_40d065e55613eb45cd5b1695ca1e22dc&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Dare%2BNorthward%2B%257C%2BColby%2BCollege165.mp4",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 25736897,
+          "md5": "16c9f180bab68db37fccfb6bf36f86a0"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1920,
+          "height": 816,
+          "expires": "2018-03-26T22:21:17+00:00",
+          "link":
+            "https://player.vimeo.com/play/855061933?s=239157971_1522135277_de9843bd489f8ea833de9b0e042549b4&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Dare%2BNorthward%2B%257C%2BColby%2BCollege175.mp4",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 83583925,
+          "md5": "13398141b6c643c8c6528cb8bd0e64ed"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 272,
+          "expires": "2018-03-26T22:21:17+00:00",
+          "link":
+            "https://player.vimeo.com/play/855061922?s=239157971_1522135277_cf821bae0839f9f54889ad2789cf4482&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Dare%2BNorthward%2B%257C%2BColby%2BCollege164.mp4",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 10301507,
+          "md5": "979bcb2c749d0e2bf4fef1d0256b128b"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1366,
+          "height": 582,
+          "expires": "2018-03-26T22:21:17+00:00",
+          "link":
+            "https://player.vimeo.com/play/855061919?s=239157971_1522135277_db6070f4334281a17e82890b761097f2&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Dare%2BNorthward%2B%257C%2BColby%2BCollege174.mp4",
+          "created_time": "2017-10-20T18:30:41+00:00",
+          "fps": 23.98,
+          "size": 44335227,
+          "md5": "a5a350f3ef7191627bc2d863c3aaf16a"
+        },
+        {
+          "quality": "source",
+          "type": "source",
+          "width": 1920,
+          "height": 816,
+          "expires": "2018-03-26T22:21:17+00:00",
+          "link":
+            "https://player.vimeo.com/play/855061670?s=239157971_1522135277_85acab5f130c85e78eee11d1b15c4c3f&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=Dare%2BNorthward%2B%257C%2BColby%2BCollegesource.",
+          "created_time": "2017-10-20T18:30:17+00:00",
+          "fps": 23.98,
+          "size": 276409212,
+          "md5": "3df3b1504fdf64e14f660df78df55442"
+        }
+      ],
+      "app": null,
+      "status": "available",
+      "resource_key": "2bf84f702668760ec998b618cfcd3a8f1f98252a",
+      "upload": {
+        "status": "complete",
+        "link": null,
+        "upload_link": null,
+        "complete_uri": null,
+        "form": null,
+        "approach": null,
+        "size": null,
+        "redirect_url": null
+      },
+      "transcode": {
+        "status": "complete"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video/7566"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/types/vimeo-video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/media?parent=7566"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7563,
+    "date": "2018-03-26T17:08:15",
+    "date_gmt": "2018-03-26T17:08:15",
+    "guid": {
+      "rendered": "http://commencement:8888/?post_type=vimeo-video&#038;p=7563"
+    },
+    "modified": "2018-03-27T11:29:11",
+    "modified_gmt": "2018-03-27T11:29:11",
+    "slug": "origins",
+    "status": "publish",
+    "type": "vimeo-video",
+    "link": "http://commencement:8888/vimeo-video/origins/",
+    "title": {
+      "rendered": "A Photographer&#8217;s True North"
+    },
+    "template": "",
+    "colbycomms__vimeo_slider__vimeo_id": "245834518",
+    "colbycomms__vimeo_slider__vimeo_title": "This is the title",
+    "colbycomms__vimeo_slider__vimeo_description": "This is the description",
+    "vimeo_data": {
+      "uri": "/videos/245834518",
+      "name": "A Photographer's True North",
+      "description":
+        "At Colby, Edwin Torres '12 found his true north and followed it ever since. A renowned photojournalist who helped earn a Pulitzer Prize with ProPublica, Torres today documents his home neighborhood of the Bronx and works for the mayor's office in New York.\n\nDirection/Production: Milton Guillén \nCinematography/Art: Nicolas Abaunza\nLine production: Sara Verstynen, Mareisa Weil \nConsultant producer: Phil Newsom\nPost-production producer: Jon Applebaum\nEdition: Neighborhood Film Co/Daniel Gauthier\nSound design: Bobb Barito\nOriginal score: Makeup and Vanity Set / Matthew Pusti\nGraphic Design: Kirsten Marjerison\nExecutive producers: Anthony Ronzio, Ruth Jackson, Gerry Boyle.",
+      "link": "https://vimeo.com/colbycollege/torres",
+      "duration": 137,
+      "width": 2048,
+      "language": null,
+      "height": 858,
+      "embed": {
+        "uri": null,
+        "html":
+          "<iframe src=\"https://player.vimeo.com/video/245834518?badge=0&autopause=0&player_id=0&app_id=112802\" width=\"2048\" height=\"858\" frameborder=\"0\" title=\"A Photographer&#039;s True North\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>",
+        "buttons": {
+          "like": false,
+          "watchlater": false,
+          "share": true,
+          "embed": false,
+          "hd": false,
+          "fullscreen": true,
+          "scaling": true
+        },
+        "logos": {
+          "vimeo": true,
+          "custom": {
+            "active": false,
+            "link": null,
+            "sticky": false
+          }
+        },
+        "title": {
+          "name": "hide",
+          "owner": "hide",
+          "portrait": "hide"
+        },
+        "playbar": false,
+        "volume": true,
+        "speed": false,
+        "color": "fc8309"
+      },
+      "created_time": "2017-12-05T00:28:47+00:00",
+      "modified_time": "2018-03-26T19:02:40+00:00",
+      "release_time": "2017-12-05T00:28:47+00:00",
+      "content_rating": ["safe"],
+      "license": "by-nc",
+      "privacy": {
+        "view": "anybody",
+        "embed": "public",
+        "download": true,
+        "add": true,
+        "comments": "anybody"
+      },
+      "pictures": {
+        "uri": "/videos/245834518/pictures/671060517",
+        "active": true,
+        "type": "custom",
+        "sizes": [
+          {
+            "width": 100,
+            "height": 75,
+            "link": "https://i.vimeocdn.com/video/671060517_100x75.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_100x75.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 200,
+            "height": 150,
+            "link": "https://i.vimeocdn.com/video/671060517_200x150.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_200x150.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 295,
+            "height": 166,
+            "link": "https://i.vimeocdn.com/video/671060517_295x166.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_295x166.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 640,
+            "height": 268,
+            "link": "https://i.vimeocdn.com/video/671060517_640x268.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_640x268.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 960,
+            "height": 402,
+            "link": "https://i.vimeocdn.com/video/671060517_960x402.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_960x402.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 536,
+            "link": "https://i.vimeocdn.com/video/671060517_1280x536.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_1280x536.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1920,
+            "height": 804,
+            "link": "https://i.vimeocdn.com/video/671060517_1920x804.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_1920x804.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          },
+          {
+            "width": 1280,
+            "height": 536,
+            "link": "https://i.vimeocdn.com/video/671060517_1280x536.jpg?r=pad",
+            "link_with_play_button":
+              "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F671060517_1280x536.jpg&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"
+          }
+        ],
+        "resource_key": "312e747a5a6e9efdb2b0d11e3707145aae428b43"
+      },
+      "tags": [],
+      "stats": {
+        "plays": 606
+      },
+      "categories": [],
+      "metadata": {
+        "connections": {
+          "comments": {
+            "uri": "/videos/245834518/comments",
+            "options": ["GET", "POST"],
+            "total": 0
+          },
+          "credits": {
+            "uri": "/videos/245834518/credits",
+            "options": ["GET", "POST"],
+            "total": 2
+          },
+          "likes": {
+            "uri": "/videos/245834518/likes",
+            "options": ["GET"],
+            "total": 1
+          },
+          "pictures": {
+            "uri": "/videos/245834518/pictures",
+            "options": ["GET", "POST"],
+            "total": 6
+          },
+          "texttracks": {
+            "uri": "/videos/245834518/texttracks",
+            "options": ["GET", "POST"],
+            "total": 1
+          },
+          "related": null,
+          "recommendations": {
+            "uri": "/videos/245834518/recommendations",
+            "options": ["GET"]
+          },
+          "versions": {
+            "uri": "/videos/245834518/versions",
+            "options": ["GET"],
+            "total": 1,
+            "current_uri": "/videos/245834518/versions/845059"
+          }
+        },
+        "interactions": {
+          "watchlater": {
+            "uri": "/users/12746784/watchlater/245834518",
+            "options": ["GET", "PUT", "DELETE"],
+            "added": false,
+            "added_time": null
+          },
+          "report": {
+            "uri": "/videos/245834518/report",
+            "options": ["POST"],
+            "reason": [
+              "pornographic",
+              "harassment",
+              "advertisement",
+              "ripoff",
+              "incorrect rating",
+              "spam"
+            ]
+          }
+        }
+      },
+      "user": {
+        "uri": "/users/12746784",
+        "name": "Colby College",
+        "link": "https://vimeo.com/colbycollege",
+        "location": "Waterville, Maine",
+        "bio": null,
+        "created_time": "2012-07-30T17:43:04+00:00",
+        "account": "pro",
+        "pictures": {
+          "uri": "/users/12746784/pictures/3976886",
+          "active": true,
+          "type": "custom",
+          "sizes": [
+            {
+              "width": 30,
+              "height": 30,
+              "link": "https://i.vimeocdn.com/portrait/3976886_30x30"
+            },
+            {
+              "width": 75,
+              "height": 75,
+              "link": "https://i.vimeocdn.com/portrait/3976886_75x75"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "link": "https://i.vimeocdn.com/portrait/3976886_100x100"
+            },
+            {
+              "width": 300,
+              "height": 300,
+              "link": "https://i.vimeocdn.com/portrait/3976886_300x300"
+            },
+            {
+              "width": 72,
+              "height": 72,
+              "link": "https://i.vimeocdn.com/portrait/3976886_72x72"
+            },
+            {
+              "width": 144,
+              "height": 144,
+              "link": "https://i.vimeocdn.com/portrait/3976886_144x144"
+            },
+            {
+              "width": 216,
+              "height": 216,
+              "link": "https://i.vimeocdn.com/portrait/3976886_216x216"
+            },
+            {
+              "width": 288,
+              "height": 288,
+              "link": "https://i.vimeocdn.com/portrait/3976886_288x288"
+            },
+            {
+              "width": 360,
+              "height": 360,
+              "link": "https://i.vimeocdn.com/portrait/3976886_360x360"
+            }
+          ],
+          "resource_key": "e8900f9f026899c42fe434d86d7eb3de9c04dc2f"
+        },
+        "websites": [
+          {
+            "name": "Colby College",
+            "link": "http://www.colby.edu",
+            "description": null
+          }
+        ],
+        "metadata": {
+          "connections": {
+            "albums": {
+              "uri": "/users/12746784/albums",
+              "options": ["GET"],
+              "total": 9
+            },
+            "appearances": {
+              "uri": "/users/12746784/appearances",
+              "options": ["GET"],
+              "total": 0
+            },
+            "categories": {
+              "uri": "/users/12746784/categories",
+              "options": ["GET"],
+              "total": 0
+            },
+            "channels": {
+              "uri": "/users/12746784/channels",
+              "options": ["GET"],
+              "total": 0
+            },
+            "feed": {
+              "uri": "/users/12746784/feed",
+              "options": ["GET"]
+            },
+            "followers": {
+              "uri": "/users/12746784/followers",
+              "options": ["GET"],
+              "total": 52
+            },
+            "following": {
+              "uri": "/users/12746784/following",
+              "options": ["GET"],
+              "total": 7
+            },
+            "groups": {
+              "uri": "/users/12746784/groups",
+              "options": ["GET"],
+              "total": 0
+            },
+            "likes": {
+              "uri": "/users/12746784/likes",
+              "options": ["GET"],
+              "total": 13
+            },
+            "moderated_channels": {
+              "uri": "/users/12746784/channels?filter=moderated",
+              "options": ["GET"],
+              "total": 1
+            },
+            "portfolios": {
+              "uri": "/users/12746784/portfolios",
+              "options": ["GET"],
+              "total": 1
+            },
+            "videos": {
+              "uri": "/users/12746784/videos",
+              "options": ["GET"],
+              "total": 404
+            },
+            "watchlater": {
+              "uri": "/users/12746784/watchlater",
+              "options": ["GET"],
+              "total": 5
+            },
+            "shared": {
+              "uri": "/users/12746784/shared/videos",
+              "options": ["GET"],
+              "total": 0
+            },
+            "pictures": {
+              "uri": "/users/12746784/pictures",
+              "options": ["GET", "POST"],
+              "total": 1
+            },
+            "watched_videos": {
+              "uri": "/me/watched/videos",
+              "options": ["GET"],
+              "total": 2647
+            },
+            "block": {
+              "uri": "/me/block",
+              "options": ["GET"],
+              "total": 0
+            }
+          }
+        },
+        "preferences": {
+          "videos": {
+            "privacy": {
+              "view": "anybody",
+              "comments": "anybody",
+              "embed": "public",
+              "download": false,
+              "add": true
+            }
+          }
+        },
+        "content_filter": [
+          "language",
+          "drugs",
+          "violence",
+          "nudity",
+          "safe",
+          "unrated"
+        ],
+        "resource_key": "fd0476428a252495d71760551ece50f4c1465cd3"
+      },
+      "review_page": {
+        "active": true,
+        "link": "https://vimeo.com/colbycollege/review/245834518/78c10a772b"
+      },
+      "last_user_action_event_date": "2018-03-26T19:02:40+00:00",
+      "files": [
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 268,
+          "link":
+            "https://player.vimeo.com/external/245834518.sd.mp4?s=5100909a79b637e4a4136a6224ec9349dc10cfa6&profile_id=164&oauth2_token_id=1050949914",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 9531345,
+          "md5": "ec1e53f8895029cdb6fe398bb5aba3a2"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 2048,
+          "height": 858,
+          "link":
+            "https://player.vimeo.com/external/245834518.hd.mp4?s=71a581dac6745c89ad2b762f81c8a1f685c2f79a&profile_id=175&oauth2_token_id=1050949914",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 89630701,
+          "md5": "51a365dffd4e017eb72ad8ce98f95c86"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1366,
+          "height": 572,
+          "link":
+            "https://player.vimeo.com/external/245834518.hd.mp4?s=71a581dac6745c89ad2b762f81c8a1f685c2f79a&profile_id=174&oauth2_token_id=1050949914",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 41751296,
+          "md5": "db2c55d8602a4b62429ee37b2cc9ed91"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 402,
+          "link":
+            "https://player.vimeo.com/external/245834518.sd.mp4?s=5100909a79b637e4a4136a6224ec9349dc10cfa6&profile_id=165&oauth2_token_id=1050949914",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 22447706,
+          "md5": "28c14ce5b22df4f70f7daddd787d76fe"
+        },
+        {
+          "quality": "hls",
+          "type": "video/mp4",
+          "link":
+            "https://player.vimeo.com/external/245834518.m3u8?s=e884b153fcea4b33e4162512a84ea11a9775d700&oauth2_token_id=1050949914",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 9531345,
+          "md5": "ec1e53f8895029cdb6fe398bb5aba3a2"
+        }
+      ],
+      "download": [
+        {
+          "quality": "source",
+          "type": "source",
+          "width": 2048,
+          "height": 858,
+          "expires": "2018-03-27T14:29:12+00:00",
+          "link":
+            "https://player.vimeo.com/play/887189982?s=245834518_1522193352_5aab1f476d599080bc1074af45fe12de&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=A%2BPhotographer%2527s%2BTrue%2BNorthsource.mp4",
+          "created_time": "2017-12-05T00:28:47+00:00",
+          "fps": 23.98,
+          "size": 792955263,
+          "md5": "f2b55d3c420696f85541d2f2b2dfb5ac"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 640,
+          "height": 268,
+          "expires": "2018-03-27T14:29:12+00:00",
+          "link":
+            "https://player.vimeo.com/play/887192541?s=245834518_1522193352_a006fc1ab75e44b946e1d6511a2c3785&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=A%2BPhotographer%2527s%2BTrue%2BNorth164.mp4",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 9531345,
+          "md5": "ec1e53f8895029cdb6fe398bb5aba3a2"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 2048,
+          "height": 858,
+          "expires": "2018-03-27T14:29:12+00:00",
+          "link":
+            "https://player.vimeo.com/play/887192531?s=245834518_1522193352_316cbab15a41eda3a5ce335c42bb7390&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=A%2BPhotographer%2527s%2BTrue%2BNorth175.mp4",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 89630701,
+          "md5": "51a365dffd4e017eb72ad8ce98f95c86"
+        },
+        {
+          "quality": "hd",
+          "type": "video/mp4",
+          "width": 1366,
+          "height": 572,
+          "expires": "2018-03-27T14:29:12+00:00",
+          "link":
+            "https://player.vimeo.com/play/887192528?s=245834518_1522193352_98eba481b3d010f94c5075ef409c2aca&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=A%2BPhotographer%2527s%2BTrue%2BNorth174.mp4",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 41751296,
+          "md5": "db2c55d8602a4b62429ee37b2cc9ed91"
+        },
+        {
+          "quality": "sd",
+          "type": "video/mp4",
+          "width": 960,
+          "height": 402,
+          "expires": "2018-03-27T14:29:12+00:00",
+          "link":
+            "https://player.vimeo.com/play/887192507?s=245834518_1522193352_7799963d624f443b60ef7325142704f5&loc=external&context=Vimeo%5CController%5CApi%5CResources%5CVideoController.&download=1&filename=A%2BPhotographer%2527s%2BTrue%2BNorth165.mp4",
+          "created_time": "2017-12-05T00:33:37+00:00",
+          "fps": 23.98,
+          "size": 22447706,
+          "md5": "28c14ce5b22df4f70f7daddd787d76fe"
+        }
+      ],
+      "app": null,
+      "status": "available",
+      "resource_key": "50890f01a620a604c0bda76bdfd228f93b409de9",
+      "upload": {
+        "status": "complete",
+        "link": null,
+        "upload_link": null,
+        "complete_uri": null,
+        "form": null,
+        "approach": null,
+        "size": null,
+        "redirect_url": null
+      },
+      "transcode": {
+        "status": "complete"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video/7563"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/vimeo-video"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/types/vimeo-video"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://commencement:8888/wp-json/wp/v2/media?parent=7563"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
