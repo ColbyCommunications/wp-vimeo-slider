@@ -70,23 +70,27 @@ class VimeoPostMeta {
 	 *
 	 * @param string $key A meta key.
 	 * @param int|string $id Post ID.
-	 * @return mixed The retrieved value.
+	 * @return mixed The retrieved value or null.
 	 */
 	public static function get( string $key, $id = null ) {
 		static $cache;
 
 		$cache = $cache ?: [];
+        $id = $id ?: get_the_id();
+        
+        if ( empty( $id ) ) {
+            return null;
+        }
 
-		$id = $id ?: get_the_id();
+        $cache_key = "$key$id";
 
-		if ( isset( $cache[ "$key$id" ] ) ) {
-			return $cache[ "$key$id" ];
+		if ( isset( $cache[ $cache_key ] ) ) {
+			return $cache[ $cache_key ];
 		}
 
 		$value = Carbon::get_post_meta( $id, $key );
-
-		$cache[ "$key$id" ] = $value;
-
-		return $value;
+		$cache[ $cache_key ] = $value;
+        
+        return $value;
 	}
 }
