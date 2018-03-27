@@ -44,7 +44,7 @@ class VimeoSlider {
 	 *
 	 * @var string
 	 */
-	const FILTER_NAMESPACE = 'colbycomms__vimeo_slider__';
+	const FILTER_NAMESPACE = self::VENDOR . '__vimeo_slider__';
 
 	/**
 	 * Filter name for this plugin's dist directory.

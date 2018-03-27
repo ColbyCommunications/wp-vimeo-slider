@@ -1,6 +1,6 @@
 {
   "name": "wp-vimeo-slider",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description":
     "A horizontal slider playing Vimeo videos from a designated Vimeo account, with videos specified through the WordPress admin.",
   "main": "src/js",
@@ -17,8 +17,12 @@
       "webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js && webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js",
     "lint": "eslint src/js --fix",
     "stylelint": "stylelint src/js",
-    "test": "npm run lint && npm run stylelint",
-    "precommit": "npm run test"
+    "test": "npm run lint && npm run stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run stylelint && composer phpcbf && composer lint"
+    }
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
