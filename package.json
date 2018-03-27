@@ -1,8 +1,7 @@
 {
   "name": "wp-vimeo-slider",
   "version": "1.0.0",
-  "description":
-    "A horizontal slider playing Vimeo videos from a designated Vimeo account, with videos specified through the WordPress admin.",
+  "description": "A horizontal slider playing Vimeo videos from a designated Vimeo account, with videos specified through the WordPress admin.",
   "main": "src/js",
   "author": "John Watkins <john.watkins@colby.edu>",
   "license": "MIT",
@@ -13,8 +12,7 @@
   "scripts": {
     "start": "webpack-dev-server",
     "start:wp": "webpack -w --config webpack.build.config.babel.js",
-    "build":
-      "webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js && webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js",
+    "build": "webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js && webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js",
     "lint": "eslint src/js --fix",
     "stylelint": "stylelint src/js",
     "test": "npm run lint && npm run stylelint"
@@ -41,6 +39,7 @@
     "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
+    "husky": "^0.15.0-rc.13",
     "style-loader": "^0.20.2",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^18.0.0",
