@@ -22,7 +22,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run stylelint && composer phpcbf && composer lint"
+      "pre-commit":
+        "npm run lint && npm run stylelint && npm test && composer phpcbf && composer lint"
     }
   },
   "devDependencies": {

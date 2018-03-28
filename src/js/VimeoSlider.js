@@ -1,4 +1,4 @@
-/* eslint no-unused-expressions: 0 */
+/* eslint no-unused-expressions: 0, no-mixed-operators: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { injectGlobal } from 'styled-components';

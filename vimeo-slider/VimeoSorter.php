@@ -24,6 +24,7 @@ class VimeoSorter {
 		add_action( 'carbon_fields_register_fields', [ $this, 'create_container' ] );
 		add_action( 'carbon_fields_register_fields', [ $this, 'add_plugin_options' ] );
 	}
+	
 	/**
 	 * Creates the options page.
 	 */
@@ -35,13 +36,15 @@ class VimeoSorter {
 	/**
 	 * Get the posts for the user to choose from.
 	 *
-	 * @return array The posts. 
+	 * @return array The posts.
 	 */
 	public static function get_posts() : array {
-		$query = new \WP_Query( [
-			'post_type' => VimeoPost::POST_TYPE_NAME,
-			'posts_per_page' => 99,
-		] );
+		$query = new \WP_Query(
+			[
+				'post_type' => VimeoPost::POST_TYPE_NAME,
+				'posts_per_page' => 99,
+			]
+		);
 
 		return is_array( $query->posts ) ? $query->posts : [];
 	}
@@ -92,7 +95,7 @@ class VimeoSorter {
 							self::SINGLE_POST_KEY,
 							'Vimeo Post'
 						)
-							->add_options( self::get_select_options() )
+							->add_options( self::get_select_options() ),
 					]
 				)
 				->set_help_text( 'Add up to 5 Vimeo posts. Drag and drop to reorder them.' ),
@@ -115,24 +118,31 @@ class VimeoSorter {
 	public static function get( string $key ) {
 		static $cache;
 		$cache = $cache ?: [];
-		
+
 		if ( isset( $cache[ $key ] ) ) {
 			return $cache[ $key ];
 		}
-		
+
 		$value = Helper::get_theme_option( $key ) ?: '';
-		
+
 		$cache[ $key ] = $value;
-		
+
 		return $value;
 	}
 
+	/**
+	 * Get a comma-separated string of saved post IDs for a data attribute.
+	 *
+	 * @return string The string.
+	 */
 	public static function get_attribute() : string {
-		return implode(',', array_map(
-			function( $item ) {
-				return (string) $item[ self::SINGLE_POST_KEY ];
-			},
-			self::get( self::COMPLEX_FIELD_KEY ) ?: []
-		) );
+		return implode(
+			',', array_map(
+				function( $item ) {
+					return (string) $item[ self::SINGLE_POST_KEY ];
+				},
+				self::get( self::COMPLEX_FIELD_KEY ) ?: []
+			)
+		);
 	}
 }
