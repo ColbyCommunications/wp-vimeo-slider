@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Adapter from 'enzyme-adapter-react-16';
 import Enzyme, { mount } from 'enzyme';
 
@@ -15,5 +14,5 @@ test('Several iframes are rendered within two seconds.', (done) => {
     expect(el.html().split('iframe').length).toBeGreaterThan(1);
 
     done();
-  }, 2000);
+  }, 2500);
 });

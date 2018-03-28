@@ -3572,13 +3572,16 @@ module.exports = {
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.loadFromHTML = undefined;
+
 var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(7);
-
-var _reactDom2 = _interopRequireDefault(_reactDom);
 
 var _ = __webpack_require__(35);
 
@@ -3586,7 +3589,7 @@ var _2 = _interopRequireDefault(_);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.addEventListener('load', function () {
+var loadFromHTML = exports.loadFromHTML = function loadFromHTML() {
   var root = document.querySelector('[data-vimeo-slider]');
 
   if (!root) {
@@ -3595,9 +3598,11 @@ window.addEventListener('load', function () {
 
   var vimeoPostsEndpoint = root.getAttribute('data-vimeo-posts-endpoint');
   if (vimeoPostsEndpoint) {
-    _reactDom2.default.render(_react2.default.createElement(_2.default, { vimeoPostsEndpoint: vimeoPostsEndpoint }), root);
+    (0, _reactDom.render)(_react2.default.createElement(_2.default, { vimeoPostsEndpoint: vimeoPostsEndpoint }), root);
   }
-});
+};
+
+window.addEventListener('load', loadFromHTML);
 
 /***/ }),
 /* 25 */
@@ -20902,7 +20907,7 @@ var _Video = __webpack_require__(64);
 
 var _Video2 = _interopRequireDefault(_Video);
 
-var _arrows = __webpack_require__(68);
+var _arrows = __webpack_require__(69);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21025,37 +21030,26 @@ var VimeoSlider = function (_React$Component) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
-                response = void 0;
-                posts = void 0;
-                _context2.prev = 2;
-                _context2.next = 5;
+                _context2.next = 2;
                 return fetch(vimeoPostsEndpoint + '?per_page=' + totalPosts);
 
-              case 5:
+              case 2:
                 response = _context2.sent;
-                _context2.next = 8;
+                _context2.next = 5;
                 return response.json();
 
-              case 8:
+              case 5:
                 posts = _context2.sent;
-                _context2.next = 14;
-                break;
 
-              case 11:
-                _context2.prev = 11;
-                _context2.t0 = _context2['catch'](2);
-                return _context2.abrupt('return');
-
-              case 14:
 
                 this.setState({ posts: posts });
 
-              case 15:
+              case 7:
               case 'end':
                 return _context2.stop();
             }
           }
-        }, _callee2, this, [[2, 11]]);
+        }, _callee2, this);
       }));
 
       function fetchPosts() {
@@ -27016,6 +27010,8 @@ var _player = __webpack_require__(65);
 
 var _player2 = _interopRequireDefault(_player);
 
+var _makeIframeResponsive = __webpack_require__(68);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27036,15 +27032,21 @@ var StyledDescription = _styledComponents2.default.div(_templateObject3);
 var Video = function (_React$Component) {
   _inherits(Video, _React$Component);
 
-  function Video(props) {
+  function Video() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
     _classCallCheck(this, Video);
 
-    var _this = _possibleConstructorReturn(this, (Video.__proto__ || Object.getPrototypeOf(Video)).call(this, props));
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
 
-    _this.render = function () {
-      var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _this.props.post,
-          title = _ref.title,
-          description = _ref.colbycomms__vimeo_slider__vimeo_description;
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Video.__proto__ || Object.getPrototypeOf(Video)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
+      var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _this.props.post,
+          title = _ref2.title,
+          description = _ref2.colbycomms__vimeo_slider__vimeo_description;
 
       return _react2.default.createElement(
         StyledVideo,
@@ -27069,32 +27071,35 @@ var Video = function (_React$Component) {
           )
         )
       );
-    };
-
-    _this.setIframeDimensions = _this.setIframeDimensions.bind(_this);
-    return _this;
+    }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Video, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      this.player = new _player2.default(this.videoContainer, {
-        id: this.props.post.colbycomms__vimeo_slider__vimeo_id
-      });
-
-      this.player.on('loaded', this.setIframeDimensions);
-      window.addEventListener('resize', this.setIframeDimensions);
+      this.startPlayer();
     }
   }, {
-    key: 'setIframeDimensions',
-    value: function setIframeDimensions() {
-      var iframe = this.player.element;
-      iframe.setAttribute('style', 'width: 100%');
-      var iframeHeight = iframe.getAttribute('height');
-      var iframeWidth = iframe.getAttribute('width');
-      var ratio = iframe.clientWidth / iframeWidth;
+    key: 'startPlayer',
+    value: function startPlayer() {
+      var _this2 = this;
 
-      iframe.setAttribute('style', 'width: 100%; height: ' + iframeHeight * ratio + 'px');
+      var _ref3 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.props.post,
+          id = _ref3.colbycomms__vimeo_slider__vimeo_id;
+
+      if (!this.videoContainer) {
+        return;
+      }
+
+      this.player = new _player2.default(this.videoContainer, {
+        id: id
+      });
+
+      this.player.on('loaded', function () {
+        (0, _makeIframeResponsive.makeIframeResponsive)({
+          iframe: _this2.player.iframe
+        });
+      });
     }
   }]);
 
@@ -29455,11 +29460,53 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+/**
+ * Sets an iframe's height based on its actual width, using the element's height and
+ * width attributes to calculate the dimension.
+ */
+var makeIframeResponsive = exports.makeIframeResponsive = function makeIframeResponsive(_ref) {
+  var iframe = _ref.iframe,
+      cb = _ref.cb,
+      _ref$addResizeListene = _ref.addResizeListener,
+      addResizeListener = _ref$addResizeListene === undefined ? true : _ref$addResizeListene;
+
+  var existingStyle = iframe.getAttribute('style') || '';
+
+  iframe.setAttribute('style', existingStyle + '; width: 100%');
+  var iframeHeight = iframe.getAttribute('height');
+  var iframeWidth = iframe.getAttribute('width');
+
+  if (!(iframeHeight && iframeWidth)) {
+    return;
+  }
+
+  var ratio = iframe.clientWidth / iframeWidth;
+  iframe.setAttribute('style', existingStyle + '; width: 100%; height: ' + iframeHeight * ratio + 'px');
+
+  if (addResizeListener === true) {
+    window.addEventListener('resize', function () {
+      return makeIframeResponsive({ iframe: iframe, addResizeListener: false, cb: cb });
+    });
+  }
+
+  if (cb) {
+    cb();
+  }
+};
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.PrevArrow = exports.NextArrow = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 1.5rem;\n    height: 1.5rem;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n'], ['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 1.5rem;\n    height: 1.5rem;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n']);
-
-exports.NextArrow = NextArrow;
-exports.PrevArrow = PrevArrow;
 
 var _react = __webpack_require__(1);
 
@@ -29469,7 +29516,7 @@ var _styledComponents = __webpack_require__(12);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _utils = __webpack_require__(69);
+var _utils = __webpack_require__(70);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29477,7 +29524,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var StyledArrow = _styledComponents2.default.button(_templateObject);
 
-function NextArrow(rawProps) {
+var NextArrow = exports.NextArrow = function NextArrow(rawProps) {
   return _react2.default.createElement(
     StyledArrow,
     (0, _utils.removeTroublesomeArrowProps)(rawProps),
@@ -29492,9 +29539,9 @@ function NextArrow(rawProps) {
       })
     )
   );
-}
+};
 
-function PrevArrow(rawProps) {
+var PrevArrow = exports.PrevArrow = function PrevArrow(rawProps) {
   return _react2.default.createElement(
     StyledArrow,
     (0, _utils.removeTroublesomeArrowProps)(rawProps),
@@ -29509,10 +29556,10 @@ function PrevArrow(rawProps) {
       })
     )
   );
-}
+};
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

@@ -1,11 +1,8 @@
 /**
  * Sets an iframe's height based on its actual width, using the element's height and
  * width attributes to calculate the dimension.
- *
- * @param {HTMLElement} iframe An iframe.
- * @param {bool} addResizeListener Whether to add this function as a resize callback.
  */
-export const makeIframeResponsive = (iframe, addResizeListener = true) => {
+export const makeIframeResponsive = ({ iframe, cb, addResizeListener = true }) => {
   const existingStyle = iframe.getAttribute('style') || '';
 
   iframe.setAttribute('style', `${existingStyle}; width: 100%`);
@@ -20,6 +17,11 @@ export const makeIframeResponsive = (iframe, addResizeListener = true) => {
   iframe.setAttribute('style', `${existingStyle}; width: 100%; height: ${iframeHeight * ratio}px`);
 
   if (addResizeListener === true) {
-    window.addEventListener('resize', () => makeIframeResponsive(iframe, false));
+    window.addEventListener('resize', () =>
+      makeIframeResponsive({ iframe, addResizeListener: false, cb }));
+  }
+
+  if (cb) {
+    cb();
   }
 };

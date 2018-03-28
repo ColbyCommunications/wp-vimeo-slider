@@ -81,11 +81,19 @@ export default class Video extends React.Component {
   }
 
   startPlayer({ colbycomms__vimeo_slider__vimeo_id: id } = this.props.post) {
+    if (!this.videoContainer) {
+      return;
+    }
+
     this.player = new Player(this.videoContainer, {
       id,
     });
 
-    this.player.on('loaded', () => makeIframeResponsive(this.player.iframe));
+    this.player.on('loaded', () => {
+      makeIframeResponsive({
+        iframe: this.player.iframe,
+      });
+    });
   }
 
   render = ({ title, colbycomms__vimeo_slider__vimeo_description: description } = this.props.post) => (

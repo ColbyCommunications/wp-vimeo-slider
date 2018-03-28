@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import VimeoSlider from '.';
 
-window.addEventListener('load', () => {
+export const loadFromHTML = () => {
   const root = document.querySelector('[data-vimeo-slider]');
 
   if (!root) {
@@ -13,4 +13,6 @@ window.addEventListener('load', () => {
   if (vimeoPostsEndpoint) {
     render(<VimeoSlider vimeoPostsEndpoint={vimeoPostsEndpoint} />, root);
   }
-});
+};
+
+window.addEventListener('load', loadFromHTML);

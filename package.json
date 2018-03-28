@@ -17,7 +17,8 @@
       "webpack --config webpack.build.config.babel.js && webpack -p --config webpack.build.config.babel.js && webpack && webpack -p",
     "lint": "eslint src/js --fix",
     "stylelint": "stylelint src/js",
-    "test": "jest"
+    "test": "jest",
+    "test-u": "jest -u"
   },
   "husky": {
     "hooks": {

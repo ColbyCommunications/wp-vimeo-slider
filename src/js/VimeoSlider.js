@@ -152,14 +152,8 @@ class VimeoSlider extends React.Component {
   }
 
   async fetchPosts({ totalPosts, vimeoPostsEndpoint } = this.props) {
-    let response;
-    let posts;
-    try {
-      response = await fetch(`${vimeoPostsEndpoint}?per_page=${totalPosts}`);
-      posts = await response.json();
-    } catch (e) {
-      return;
-    }
+    const response = await fetch(`${vimeoPostsEndpoint}?per_page=${totalPosts}`);
+    const posts = await response.json();
 
     this.setState({ posts });
   }
