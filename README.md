@@ -28,6 +28,8 @@ add_filter( 'colbycomms__vimeo_slider__enqueue_script', function() {
 } );
 ```
 
+This is especially recommended if you're using this package's dependencies (`react`, `prop-types`, `styled-components`, `react-dom`, etc.) elsewhere in your Javascript.
+
 ### NPM
 
 If you don't need the WordPress shortcode and plan to use this package as an ES6 module, install it using NPM or Yarn:
