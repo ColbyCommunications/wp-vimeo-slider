@@ -2,6 +2,8 @@
 
 A horizontal slider playing Vimeo videos from a designated Vimeo account, with videos specified through the WordPress admin.
 
+[Demo.](https://colbycommunications.github.io/wp-vimeo-slider/demo/)
+
 ## Install
 
 ### WordPress
