@@ -11,7 +11,13 @@ export const loadFromHTML = () => {
 
   const vimeoPostsEndpoint = root.getAttribute('data-vimeo-posts-endpoint');
   if (vimeoPostsEndpoint) {
-    render(<VimeoSlider vimeoPostsEndpoint={vimeoPostsEndpoint} />, root);
+    render(
+      <VimeoSlider
+        vimeoPostsEndpoint={vimeoPostsEndpoint}
+        includedPosts={root.getAttribute('data-vimeo-posts')}
+      />,
+      root,
+    );
   }
 };
 

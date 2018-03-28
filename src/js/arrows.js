@@ -62,8 +62,8 @@ const StyledArrow = styled.button`
 
   svg {
     display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 50%;
+    height: 50%;
     color: white;
   }
 

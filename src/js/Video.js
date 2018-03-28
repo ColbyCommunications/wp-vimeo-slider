@@ -90,9 +90,8 @@ export default class Video extends React.Component {
     });
 
     this.player.on('loaded', () => {
-      makeIframeResponsive({
-        iframe: this.player.iframe,
-      });
+      const iframe = this.player.element;
+      makeIframeResponsive({ iframe });
     });
   }
 

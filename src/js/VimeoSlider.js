@@ -37,7 +37,6 @@ const StyledSlider = styled(Slider)`
   box-sizing: border-box;
   display: block;
   width: 100%;
-  max-width: 640px;
   -webkit-touch-callout: none;
   touch-action: pan-y;
   user-select: none;
@@ -122,6 +121,7 @@ class VimeoSlider extends React.Component {
     vimeoPosts: PropTypes.arrayOf(PropTypes.object),
     vimeoPostsEndpoint: PropTypes.string,
     sliderSettings: PropTypes.objectOf(PropTypes.any),
+    includedPosts: PropTypes.string,
   };
 
   static defaultProps = {
@@ -129,6 +129,7 @@ class VimeoSlider extends React.Component {
     vimeoPosts: [],
     vimeoPostsEndpoint: '',
     sliderSettings: {},
+    includedPosts: null,
   };
 
   constructor(props) {
@@ -151,15 +152,23 @@ class VimeoSlider extends React.Component {
     this.fetchPosts();
   }
 
-  async fetchPosts({ totalPosts, vimeoPostsEndpoint } = this.props) {
-    const response = await fetch(`${vimeoPostsEndpoint}?per_page=${totalPosts}`);
+  async fetchPosts({ totalPosts, vimeoPostsEndpoint, includedPosts } = this.props) {
+    const includeParams = includedPosts ? `&include=${includedPosts}&orderby=include` : '';
+    const response = await fetch(`${vimeoPostsEndpoint}?per_page=${totalPosts}${includeParams}`);
     const posts = await response.json();
 
     this.setState({ posts });
   }
 
   render = ({ sliderSettings } = this.props, { posts } = this.state) => (
-    <StyledSlider {...Object.assign({}, SLIDER_SETTINGS, sliderSettings)}>
+    <StyledSlider
+      {...Object.assign(
+        {},
+        SLIDER_SETTINGS,
+        { initialSlide: Math.ceil(posts.length / 2 + 1) },
+        sliderSettings,
+      )}
+    >
       {posts.map(post => (
         <StyledVideoContainer key={post.id}>
           <Video post={post} />

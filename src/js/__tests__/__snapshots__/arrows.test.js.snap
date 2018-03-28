@@ -2,7 +2,7 @@
 
 exports[`NextArrow renders correct 1`] = `
 <button
-  className="sc-bdVaJa kNRaCq"
+  className="sc-bdVaJa ioCiWz"
 >
   <svg
     height="1792"
@@ -20,7 +20,7 @@ exports[`NextArrow renders correct 1`] = `
 
 exports[`PrevArrow renders correct 1`] = `
 <button
-  className="sc-bdVaJa kNRaCq"
+  className="sc-bdVaJa ioCiWz"
 >
   <svg
     height="1792"

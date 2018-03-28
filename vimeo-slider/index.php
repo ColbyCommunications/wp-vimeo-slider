@@ -15,6 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 new VimeoPost();
 new VimeoPostMeta();
+new VimeoSorter();
 new VimeoSlider();
 new Shortcode();
 

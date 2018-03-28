@@ -3598,7 +3598,10 @@ var loadFromHTML = exports.loadFromHTML = function loadFromHTML() {
 
   var vimeoPostsEndpoint = root.getAttribute('data-vimeo-posts-endpoint');
   if (vimeoPostsEndpoint) {
-    (0, _reactDom.render)(_react2.default.createElement(_2.default, { vimeoPostsEndpoint: vimeoPostsEndpoint }), root);
+    (0, _reactDom.render)(_react2.default.createElement(_2.default, {
+      vimeoPostsEndpoint: vimeoPostsEndpoint,
+      includedPosts: root.getAttribute('data-vimeo-posts')
+    }), root);
   }
 };
 
@@ -20884,7 +20887,7 @@ var _regenerator2 = _interopRequireDefault(_regenerator);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _templateObject = _taggedTemplateLiteral(['\n  * {\n    min-width: 0;\n    min-height: 0;\n  }\n\n  [data-vimeo-slider] {\n    margin: 0 auto;\n  }\n'], ['\n  * {\n    min-width: 0;\n    min-height: 0;\n  }\n\n  [data-vimeo-slider] {\n    margin: 0 auto;\n  }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  max-width: 640px;\n  -webkit-touch-callout: none;\n  touch-action: pan-y;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n  transform: translateZ(0);\n\n  .slick-list {\n    position: relative;\n    display: block;\n    padding: 0;\n    margin: 0;\n    overflow: visible;\n    transform: translate3d(0, 0, 0);\n\n    &.dragging {\n      cursor: pointer;\n      cursor: hand;\n    }\n  }\n\n  .slick-track {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    align-items: center;\n    margin-right: auto;\n    margin-left: auto;\n    transform: translate3d(0, 0, 0);\n\n    &::before,\n    &::after {\n      display: table;\n      content: \'\';\n    }\n\n    &::after {\n      clear: both;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n  }\n\n  .slick:focus {\n    outline: none;\n  }\n\n  .slick-slide {\n    float: left;\n    height: 100%;\n    min-height: 1px;\n\n    .slick-initialized & {\n      display: block;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n\n    .slick-vertical & {\n      display: block;\n      height: auto;\n      border: 1px solid transparent;\n    }\n  }\n\n  .slick-arrow.slick-hidden {\n    display: none;\n  }\n'], ['\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  max-width: 640px;\n  -webkit-touch-callout: none;\n  touch-action: pan-y;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n  transform: translateZ(0);\n\n  .slick-list {\n    position: relative;\n    display: block;\n    padding: 0;\n    margin: 0;\n    overflow: visible;\n    transform: translate3d(0, 0, 0);\n\n    &.dragging {\n      cursor: pointer;\n      cursor: hand;\n    }\n  }\n\n  .slick-track {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    align-items: center;\n    margin-right: auto;\n    margin-left: auto;\n    transform: translate3d(0, 0, 0);\n\n    &::before,\n    &::after {\n      display: table;\n      content: \'\';\n    }\n\n    &::after {\n      clear: both;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n  }\n\n  .slick:focus {\n    outline: none;\n  }\n\n  .slick-slide {\n    float: left;\n    height: 100%;\n    min-height: 1px;\n\n    .slick-initialized & {\n      display: block;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n\n    .slick-vertical & {\n      display: block;\n      height: auto;\n      border: 1px solid transparent;\n    }\n  }\n\n  .slick-arrow.slick-hidden {\n    display: none;\n  }\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  -webkit-touch-callout: none;\n  touch-action: pan-y;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n  transform: translateZ(0);\n\n  .slick-list {\n    position: relative;\n    display: block;\n    padding: 0;\n    margin: 0;\n    overflow: visible;\n    transform: translate3d(0, 0, 0);\n\n    &.dragging {\n      cursor: pointer;\n      cursor: hand;\n    }\n  }\n\n  .slick-track {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    align-items: center;\n    margin-right: auto;\n    margin-left: auto;\n    transform: translate3d(0, 0, 0);\n\n    &::before,\n    &::after {\n      display: table;\n      content: \'\';\n    }\n\n    &::after {\n      clear: both;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n  }\n\n  .slick:focus {\n    outline: none;\n  }\n\n  .slick-slide {\n    float: left;\n    height: 100%;\n    min-height: 1px;\n\n    .slick-initialized & {\n      display: block;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n\n    .slick-vertical & {\n      display: block;\n      height: auto;\n      border: 1px solid transparent;\n    }\n  }\n\n  .slick-arrow.slick-hidden {\n    display: none;\n  }\n'], ['\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  -webkit-touch-callout: none;\n  touch-action: pan-y;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n  transform: translateZ(0);\n\n  .slick-list {\n    position: relative;\n    display: block;\n    padding: 0;\n    margin: 0;\n    overflow: visible;\n    transform: translate3d(0, 0, 0);\n\n    &.dragging {\n      cursor: pointer;\n      cursor: hand;\n    }\n  }\n\n  .slick-track {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    align-items: center;\n    margin-right: auto;\n    margin-left: auto;\n    transform: translate3d(0, 0, 0);\n\n    &::before,\n    &::after {\n      display: table;\n      content: \'\';\n    }\n\n    &::after {\n      clear: both;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n  }\n\n  .slick:focus {\n    outline: none;\n  }\n\n  .slick-slide {\n    float: left;\n    height: 100%;\n    min-height: 1px;\n\n    .slick-initialized & {\n      display: block;\n    }\n\n    .slick-loading & {\n      visibility: hidden;\n    }\n\n    .slick-vertical & {\n      display: block;\n      height: auto;\n      border: 1px solid transparent;\n    }\n  }\n\n  .slick-arrow.slick-hidden {\n    display: none;\n  }\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n  padding: 0.75rem;\n'], ['\n  padding: 0.75rem;\n']);
 
 var _react = __webpack_require__(1);
@@ -20959,7 +20962,7 @@ var VimeoSlider = function (_React$Component) {
 
       return _react2.default.createElement(
         StyledSlider,
-        Object.assign({}, SLIDER_SETTINGS, sliderSettings),
+        Object.assign({}, SLIDER_SETTINGS, { initialSlide: Math.ceil(posts.length / 2 + 1) }, sliderSettings),
         posts.map(function (post) {
           return _react2.default.createElement(
             StyledVideoContainer,
@@ -21023,28 +21026,30 @@ var VimeoSlider = function (_React$Component) {
       var _ref4 = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
         var _ref5 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.props,
             totalPosts = _ref5.totalPosts,
-            vimeoPostsEndpoint = _ref5.vimeoPostsEndpoint;
+            vimeoPostsEndpoint = _ref5.vimeoPostsEndpoint,
+            includedPosts = _ref5.includedPosts;
 
-        var response, posts;
+        var includeParams, response, posts;
         return _regenerator2.default.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
-                _context2.next = 2;
-                return fetch(vimeoPostsEndpoint + '?per_page=' + totalPosts);
+                includeParams = includedPosts ? '&include=' + includedPosts + '&orderby=include' : '';
+                _context2.next = 3;
+                return fetch(vimeoPostsEndpoint + '?per_page=' + totalPosts + includeParams);
 
-              case 2:
+              case 3:
                 response = _context2.sent;
-                _context2.next = 5;
+                _context2.next = 6;
                 return response.json();
 
-              case 5:
+              case 6:
                 posts = _context2.sent;
 
 
                 this.setState({ posts: posts });
 
-              case 7:
+              case 8:
               case 'end':
                 return _context2.stop();
             }
@@ -21067,13 +21072,15 @@ VimeoSlider.propTypes = {
   totalPosts: _propTypes2.default.number,
   vimeoPosts: _propTypes2.default.arrayOf(_propTypes2.default.object),
   vimeoPostsEndpoint: _propTypes2.default.string,
-  sliderSettings: _propTypes2.default.objectOf(_propTypes2.default.any)
+  sliderSettings: _propTypes2.default.objectOf(_propTypes2.default.any),
+  includedPosts: _propTypes2.default.string
 };
 VimeoSlider.defaultProps = {
   totalPosts: 5,
   vimeoPosts: [],
   vimeoPostsEndpoint: '',
-  sliderSettings: {}
+  sliderSettings: {},
+  includedPosts: null
 };
 exports.default = VimeoSlider;
 
@@ -27096,9 +27103,8 @@ var Video = function (_React$Component) {
       });
 
       this.player.on('loaded', function () {
-        (0, _makeIframeResponsive.makeIframeResponsive)({
-          iframe: _this2.player.iframe
-        });
+        var iframe = _this2.player.element;
+        (0, _makeIframeResponsive.makeIframeResponsive)({ iframe: iframe });
       });
     }
   }]);
@@ -29485,7 +29491,7 @@ var makeIframeResponsive = exports.makeIframeResponsive = function makeIframeRes
 
   if (addResizeListener === true) {
     window.addEventListener('resize', function () {
-      return makeIframeResponsive({ iframe: iframe, addResizeListener: false, cb: cb });
+      makeIframeResponsive({ iframe: iframe, addResizeListener: false, cb: cb });
     });
   }
 
@@ -29506,7 +29512,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.PrevArrow = exports.NextArrow = undefined;
 
-var _templateObject = _taggedTemplateLiteral(['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 1.5rem;\n    height: 1.5rem;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n'], ['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 1.5rem;\n    height: 1.5rem;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 50%;\n    height: 50%;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n'], ['\n  position: absolute;\n  top: 72%;\n  z-index: 4444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 2.3rem;\n  height: 2.3rem;\n  padding: 0;\n  cursor: pointer;\n  background: rgba(209, 65, 36, 0.9);\n  border: none;\n  border-radius: 2rem;\n  transition: transform 0.1s ease-out;\n  transform: scale(1);\n\n  @media screen and (min-width: 512px) {\n    top: 81%;\n  }\n\n  @media screen and (min-width: 768px) {\n    top: 32%;\n    width: 4rem;\n    height: 4rem;\n  }\n\n  &:hover {\n    background: rgba(209, 65, 36, 0.9);\n  }\n\n  &::before {\n    font-family: serif;\n    content: \'\';\n  }\n\n  &.slick-disabled {\n    display: none !important;\n  }\n\n  &.slick-next {\n    right: -0.75rem;\n  }\n\n  &.slick-prev {\n    left: -0.75rem;\n  }\n\n  &:focus {\n    background: rgba(209, 65, 36, 1);\n  }\n\n  &:not(.slick-disabled):hover {\n    opacity: 1;\n    transform: scale(1.1);\n  }\n\n  svg {\n    display: inline-block;\n    width: 50%;\n    height: 50%;\n    color: white;\n  }\n\n  @media screen and (min-width: 768px) {\n    &.slick-next {\n      right: -1rem;\n    }\n\n    &.slick-prev {\n      left: -1rem;\n    }\n  }\n']);
 
 var _react = __webpack_require__(1);
 

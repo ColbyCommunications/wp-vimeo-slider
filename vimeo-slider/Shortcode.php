@@ -39,6 +39,7 @@ class Shortcode {
 <div
 	data-vimeo-slider
 	data-vimeo-posts-endpoint="<?php echo esc_url( get_rest_url( null, '/wp/v2/vimeo-video/' ) ); ?>"
+	data-vimeo-posts="<?php echo esc_attr( VimeoSorter::get_attribute() ); ?>"
 >
 </div>
 
