@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import vimeoPosts from './vimeoPosts.json';
 
+import vimeoPosts from './vimeoPosts.json';
 import VimeoSlider from '../..';
 
 window.addEventListener('load', () => {
