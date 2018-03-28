@@ -17,8 +17,9 @@ export const makeIframeResponsive = ({ iframe, cb, addResizeListener = true }) =
   iframe.setAttribute('style', `${existingStyle}; width: 100%; height: ${iframeHeight * ratio}px`);
 
   if (addResizeListener === true) {
-    window.addEventListener('resize', () =>
-      makeIframeResponsive({ iframe, addResizeListener: false, cb }));
+    window.addEventListener('resize', () => {
+      makeIframeResponsive({ iframe, addResizeListener: false, cb });
+    });
   }
 
   if (cb) {
