@@ -64,7 +64,7 @@ To use this package as a React component, import it into your project -- e.g.:
 
 ```JS
 import React from 'react';
-import VimeoSlider from 'wp-vimeo-slider';
+import VimeoSlider from 'wp-vimeo-slider'; // Or provide relative path to the file in the /vendor directory.
 
 export const MyComponent = () => {
   return (
