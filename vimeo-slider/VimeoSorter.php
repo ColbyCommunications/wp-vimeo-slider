@@ -24,7 +24,7 @@ class VimeoSorter {
 		add_action( 'carbon_fields_register_fields', [ $this, 'create_container' ] );
 		add_action( 'carbon_fields_register_fields', [ $this, 'add_plugin_options' ] );
 	}
-	
+
 	/**
 	 * Creates the options page.
 	 */
