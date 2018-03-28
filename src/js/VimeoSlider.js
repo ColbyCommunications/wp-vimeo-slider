@@ -1,4 +1,4 @@
-/* eslint no-unused-expressions: 0, no-mixed-operators: 0 */
+/* eslint no-unused-expressions: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { injectGlobal } from 'styled-components';
@@ -132,6 +132,12 @@ class VimeoSlider extends React.Component {
     includedPosts: null,
   };
 
+  static getStartingIndex(posts) {
+    const half = Math.ceil(posts.length / 2);
+
+    return half - 1;
+  }
+
   constructor(props) {
     super(props);
 
@@ -160,22 +166,23 @@ class VimeoSlider extends React.Component {
     this.setState({ posts });
   }
 
-  render = ({ sliderSettings } = this.props, { posts } = this.state) => (
-    <StyledSlider
-      {...Object.assign(
-        {},
-        SLIDER_SETTINGS,
-        { initialSlide: Math.ceil(posts.length / 2 + 1) },
-        sliderSettings,
-      )}
-    >
-      {posts.map(post => (
-        <StyledVideoContainer key={post.id}>
-          <Video post={post} />
-        </StyledVideoContainer>
-      ))}
-    </StyledSlider>
-  );
+  render = ({ sliderSettings } = this.props, { posts } = this.state) =>
+    posts.length > 0 && (
+      <StyledSlider
+        {...Object.assign(
+          {},
+          SLIDER_SETTINGS,
+          { initialSlide: VimeoSlider.getStartingIndex(posts) },
+          sliderSettings,
+        )}
+      >
+        {posts.map(post => (
+          <StyledVideoContainer key={post.id}>
+            <Video post={post} />
+          </StyledVideoContainer>
+        ))}
+      </StyledSlider>
+    );
 }
 
 export default VimeoSlider;

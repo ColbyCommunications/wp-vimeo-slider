@@ -20922,7 +20922,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /* eslint no-unused-expressions: 0, no-mixed-operators: 0 */
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); } /* eslint no-unused-expressions: 0 */
 
 
 (0, _styledComponents.injectGlobal)(_templateObject);
@@ -20948,6 +20948,15 @@ var StyledVideoContainer = _styledComponents2.default.div(_templateObject3);
 var VimeoSlider = function (_React$Component) {
   _inherits(VimeoSlider, _React$Component);
 
+  _createClass(VimeoSlider, null, [{
+    key: 'getStartingIndex',
+    value: function getStartingIndex(posts) {
+      var half = Math.ceil(posts.length / 2);
+
+      return half - 1;
+    }
+  }]);
+
   function VimeoSlider(props) {
     _classCallCheck(this, VimeoSlider);
 
@@ -20960,9 +20969,9 @@ var VimeoSlider = function (_React$Component) {
       var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _this.state,
           posts = _ref2.posts;
 
-      return _react2.default.createElement(
+      return posts.length > 0 && _react2.default.createElement(
         StyledSlider,
-        Object.assign({}, SLIDER_SETTINGS, { initialSlide: Math.ceil(posts.length / 2 + 1) }, sliderSettings),
+        Object.assign({}, SLIDER_SETTINGS, { initialSlide: VimeoSlider.getStartingIndex(posts) }, sliderSettings),
         posts.map(function (post) {
           return _react2.default.createElement(
             StyledVideoContainer,
